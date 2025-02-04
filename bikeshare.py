@@ -96,6 +96,7 @@ def load_data(city, month, day):
 def time_stats(df):
 
     """Displays statistics on the most frequent times of travel.
+    Statistics displayed are common month, common day and commont start hour.
 
     Args:
         (dataFrame)  df - data from city_data
@@ -257,8 +258,7 @@ def chunk_data(df):
     """
     start = 0
    
-
-   
+  
     while True:
         see_data = input('Would you like to see 5 lines of the raw data? Enter yes or no.')
         if see_data == 'yes':
