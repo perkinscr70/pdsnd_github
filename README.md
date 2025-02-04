@@ -8,7 +8,7 @@ Readme documentation created February 4, 2025.
 Udacity Project Bikeshare
 
 ### Description
-The bikeshare project allows users to investigate bikeshare usage data from 3 distinct cities.
+The bikeshare project allows users to investigate bikeshare usage data from 3 distinct cities.  The project allows the user to select specific time frames for the display of the statics.
 
 ### Files used
 csv files used in the bikshare project:
