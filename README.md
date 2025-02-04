@@ -10,11 +10,16 @@ Udacity Project Bikeshare
 ### Description
 The bikeshare project allows users to investigate bikeshare usage data from 3 distinct cities.  The project allows the user to select specific time frames for the display of the statics.
 
-### Files used
+
+### Files
+
+Project is located in the bikeshare.py
+ 
 csv files used in the bikshare project:
     chicago.csv
     new_york_city.csv
     washington.csv
+
 
 ### Credits
 Udacity Indroduction to Programming for Data Scient
