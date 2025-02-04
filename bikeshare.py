@@ -206,11 +206,11 @@ def user_stats(df):
     print('\nCalculating User Stats...\n')
     start_time = time.time()
 
-    # Display counts of user types
+    # Display number of user types
     user_types = df['User Type'].value_counts()
     print('The count of each user type is: \n', user_types)
 
-    # Display the counts of gender create an exception for the city of Washington
+    # Display the number of each gender create an exception for the city of Washington
 
     if 'Gender' not in df.columns:
         print('The city of Washington does not include gender in its data.')
