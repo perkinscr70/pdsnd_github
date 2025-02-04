@@ -246,6 +246,7 @@ def user_stats(df):
 
 def chunk_data(df):
     """Displays 5 rows of data from the dataframe upon request of the user.
+    Allows the user to continue to see additional 5 lines or exit out.
     
     Args:
         (dataFrame)  df - data from city_data
@@ -255,6 +256,8 @@ def chunk_data(df):
         
     """
     start = 0
+   
+
    
     while True:
         see_data = input('Would you like to see 5 lines of the raw data? Enter yes or no.')
